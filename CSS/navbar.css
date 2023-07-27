@@ -1,0 +1,29 @@
+.navbar{
+    background-color: aqua;
+    padding: 20;
+    height: 50;
+    width: 150;
+}
+
+div.navbar a{
+    text-decoration: none;
+}
+
+/* div having navbar class with anchor tag */
+
+
+div.main div{
+    color: blueviolet;
+    background-color: beige;
+}
+
+.para{
+    color: red;
+}
+
+.name{
+    color: blueviolet;
+    font-family: monospace;
+    cursor: progress;
+}
+

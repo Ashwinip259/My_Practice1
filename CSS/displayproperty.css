@@ -1,0 +1,16 @@
+.dis1{
+        display: inline;
+}
+.dis2{
+    display: block;
+}
+.dis3{
+    display: inline-block;
+    height: 50;
+    width: 100;
+    border: 1px dotted;
+    background-color: aqua;
+}
+.dis4{
+    display: none;
+}

@@ -1,0 +1,47 @@
+/* descended selector */
+div p{
+    background-color: burlywood;
+}
+/* child selectors */
+
+span > h1{
+    background-color: aqua;
+}
+
+/* adjacent sibling selector  */
+
+div + h2{
+    background-color: blueviolet;
+}
+/* General sibling selector */
+
+div ~ h2{
+    background-color: chartreuse;
+}
+
+/* pseudo class selectors */
+
+a:hover{
+    font-size: 22px;
+    color: brown;
+}
+
+a:active{
+    color: blue;
+}
+
+/* pseudo element selectors */
+
+p::first-line{
+    color: brown;
+    text-transform: capitalize;
+}
+
+p::first-letter{
+    color: chartreuse;
+}
+
+::selection{
+    color:coral;
+    background-color: blue;
+}
