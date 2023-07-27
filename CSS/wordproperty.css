@@ -1,0 +1,12 @@
+.word {
+    height: 79px;
+    border: 1px solid;
+    width: 60px;
+    word-wrap: break-word;
+}
+.word1 {
+    border: 1px solid;
+    height: 288px;
+    width: 165px;
+    word-break: break-all;
+}

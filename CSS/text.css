@@ -1,0 +1,74 @@
+/* we are learning text-align property here 3 in built values hai left right or center */
+/* by default left rehti hai  */
+/* if you use text align center then the content within box will be shown in the center the the complete box if we want the complete box in the center then use margin auto */
+
+/* if you give position value in the class your margin auto property will not work here */
+.text1 {
+    border: 1px solid;
+    width: 255px;
+    text-align: center;
+    margin: auto;
+}
+.text2{
+    margin-left: 78;
+    margin-top: 34;
+}
+
+.text3 {
+        margin: auto;
+        text-align: center;
+        text-shadow: 3px 4px 5px red;
+        /* 3px is for horizantal shadow, 4 is for vertical , 5 is for kitna blury shadow chahiye wo, red is for shadow colour */
+        font-size: 50;
+    }
+
+.text4{
+    box-shadow: 6px 6px 6px violet ;
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+    background-color: aqua;
+}
+
+.text5{
+    text-transform:uppercase;
+    /* capitalize mdhe every word cha first letter capital honar, lower case and uppercase we know,  */
+    position: relative;
+    top: 10px;
+}
+
+.para{
+    text-indent: 50px;
+    letter-spacing: 4px;
+}
+
+
+.overflow-property {
+        width: 40px;
+        border: 1px solid;
+        overflow: hidden;     
+        text-overflow: ellipsis;
+        /* text overflow we have to use with overflow property ellipsis or clip */
+    
+}
+.overflw {
+    position: relative;
+    top: 20px;
+    overflow: scroll;  
+    /* overflow inbuilt values: scroll, hidden, auto, clip, visible is by default,*/
+    /* if you give scroll value to as per height width vertical and horizontal dono scroll bar aayege automatically par active wahi hoha as per the content*/
+    /* and if you give auto so as per the contents or jaha jarurat hogi means jaha overflow ho raha hai waha wo either horizontal or vertical scroll lagayega and if scroll ki jaroori nahi hogi contents kam hai to scroll nahi lagayega wo */
+    /* if client ki requirement hai horizontal hi scrollbar chahiye to we have property overflow-x and for vertical scrollbar  we have property overflow-y */
+    /* kuthla tari ek scroll havay tar mg overflow x kiva y lihi donhi hava asel tar simple overflow: scroll */
+    /* overflow hidden means jo cintent overflow ho raha hai wo hidden karta hai */
+    /* overflow clip means ye clip/cut karta hai overflow content */
+    height: 69px;
+    width: 300;
+}
+
+.overflw1 {
+    position: relative;
+    top: 40px;
+    overflow-y: scroll;
+    height: 100;
+}
