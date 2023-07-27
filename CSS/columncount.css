@@ -1,8 +1,0 @@
-/* col count property is generally used for the newspapers to create the columns of the content */
-.count{
-   /* column-width: 300px; */
-   column-count: 3;
-   column-gap: 20px;
-   column-rule: 8px dotted darkgreen;
-}
-    
