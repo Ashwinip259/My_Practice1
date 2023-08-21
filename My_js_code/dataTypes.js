@@ -43,3 +43,14 @@ console.log(typeof(studentData));
 let list = [20,30,56,98,65,98];
 console.log(list);
 console.log(typeof(list));
+
+// Bigint (Big integer)
+
+
+let savingamount = BigInt("888888888888888888888");
+console.log(savingamount);
+console.log(typeof(savingamount));
+
+let savingamnt = 8888888888888888888n
+console.log(savingamnt);
+console.log(typeof(savingamnt));
