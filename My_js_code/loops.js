@@ -18,7 +18,7 @@
 //for loop
 
 let cars = ['kia','audi','mercedes','rangerover','Buggati']
-for ( let a=0; a < cars.length; ) {
+for ( let a=0; a < cars.length; a++) {
     console.log(cars[a]);    
 }
 
@@ -31,6 +31,20 @@ student = {
 }
 
 for(let a in student){
-    console.log(student);
+    console.log(student[a]);
 }
 
+//for of:use for an array
+
+let array = [20,30,40,50,90,110]
+for(let x of array){
+    console.log(x);
+}
+
+//do while
+let m=10;
+
+do {
+    m++;
+    console.log(m);
+} while (m<15);
