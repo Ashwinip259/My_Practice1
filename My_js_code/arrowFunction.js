@@ -11,15 +11,15 @@ console.log(x);
 let a = function(){
     return 30+10;
 }
- let add = a();
- console.log(add);
+ 
+ console.log(a());
 
  //using arrow function //parameterless function
 
  let sub = () => 20*3
 
- let sub1 = sub();
- console.log(sub1);
+ 
+ console.log(sub());
 
  //parametarized function
 
@@ -35,4 +35,40 @@ let a = function(){
  }
  let d1 = div();
  console.log(d1);
+
+
+
+
+
+
+
+
+
+
+
+let a1=function(){
+    return 9+1;
+}
+console.log(a1());
+
+let mult = () => 9*3
+console.log(mult());
+
+
+
+
+
+let a6 = function(x,y){
+    return x+y;
+}
+let add = a6(2,3);
+console.log(add);
+//console.log(a6(2,3));
+
+//using arrow function
+let sum = (a,b) => a+b;
+console.log('sum',sum(2,1));
+
+
+
  
